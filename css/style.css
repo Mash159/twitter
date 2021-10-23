@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+}
+
+/* navBar Starts */
+nav {
+    width: 25%;
+    height: 100vh;
+}
+
+main {
+    width: 40%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+aside {
+    width: 35%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+nav ul li img {
+    width: 26px;
+    height: 26px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+    width: auto;
+    height: auto;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a span {
+    margin-left: 10px;
+}
+
+nav ul li button {
+    width: 250px;
+    height: 60px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li button:hover {
+    background-color: #1b90d8;
+}
+
+/* navBar ends */
+
+/* Main Starts */
+
+.mainHomeCon {
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    height: 7vh;
+}
+
+.mainHome {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.textBoxCon {
+    border-bottom: 1px solid gray;
+}
+
+.profilePic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.tweetInp {
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+.pushTweet {
+    background-color: #1DA1F2;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.pushTweet:hover {
+    background-color: #1b90d8;
+}
+
+.image-upload input {
+    display: none;
+}
+
+.image-upload img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.uploadCon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.uploadCon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    margin-left: 20px;
+}
+
+
+
+
+
+/* Main Starts */
